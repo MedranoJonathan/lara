@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARRITO</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="titu">VENTA DE LEÑA</h1>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="productos.html">PRODUCTOS</a>
+        <a href="carrito.html">COMPRAR</a>
+    </nav>
+    <section>
+        <form>
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <img src="IMAGENES/bolsa vacia.jpg" alt="">
+            <br>
+            <label for="vacia">BOLSA VACIA: $250:</label>
+            <input type="number" id="vacia" name="vacia">
+            <br>
+            <img src="IMAGENES/bolsa1.jpg" alt="">
+            <br>
+            <label for="bolsa">BOLSA DE LEÑA: $1000:</label>
+            <input type="number" id="bolsa" name="bolsa">
+            <br>
+            <img src="IMAGENES/bolsas.jpeg" alt="">
+            <br>
+            <label for="bolsas">x6 BOLSAS DE LEÑAS: $5800:</label>
+            <input type="number" id="bolsas" name="bolsas">
+            <br>
+            <button type="button" onclick="comprar()" class="boton">Comprar</button>
+          </form>
+    </section>
+    <footer>
+        <p>Lara Peralta</p>
+        <p>Escuela Proa, programación</p>
+    </footer>
+
+</body>
+</html>
